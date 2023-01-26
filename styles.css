@@ -1,0 +1,86 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.star{
+    border: none;
+    border-radius: 50%;
+    font-size: 15px;
+    background: #3e444b;
+    padding: 12px;
+}
+
+h2{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.rating-card, .thank-you-card{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 25px;
+    
+}
+
+.sub-heading, .attribution{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    width: 350px;
+    line-height: 25px;
+    
+}
+
+.selection{
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+}
+
+/* .hidden{
+    display: none;
+} */
+
+.buttons{
+    width: 100%;
+}
+
+#rating-btn{
+    border: none;
+    border-radius: 50%;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background: #3e444b;
+    color: hsl(217, 12%, 63%);
+    margin-right: 15px;
+    padding: 15px;
+    
+}
+
+#submit-btn{
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 2px;
+}
+
+#rating-btn:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+#submit-btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.selected{
+    background-color: hsl(25, 97%, 53%);
+}
