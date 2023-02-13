@@ -17,6 +17,12 @@ h2{
     font-weight: 400;
 }
 
+/* .container{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+} */
+
 .rating-card, .thank-you-card{
     background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
@@ -33,9 +39,9 @@ h2{
     
 }
 
-.selection{
-    color: hsl(25, 97%, 53%);
-    font-size: 15px;
+
+.show{
+    display: hidden;
 }
 
 /* .hidden{
@@ -43,10 +49,19 @@ h2{
 } */
 
 .buttons{
-    width: 100%;
+    text-align: center;
 }
 
-#rating-btn{
+
+
+
+
+.selected{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  
+}
+.rating-btn{
     border: none;
     border-radius: 50%;
     font-size: 15px;
@@ -56,6 +71,11 @@ h2{
     margin-right: 15px;
     padding: 15px;
     
+}
+
+.rating-btn:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
 }
 
 #submit-btn{
@@ -71,16 +91,59 @@ h2{
     letter-spacing: 2px;
 }
 
-#rating-btn:hover{
-    background-color: hsl(217, 12%, 63%);
-    color: white;
-}
+
 
 #submit-btn:hover{
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
 
-.selected{
-    background-color: hsl(25, 97%, 53%);
+
+
+.submit-selected{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.attribution{
+    font-size: 10px;
+    text-align: center;
+}
+
+.thank-you-card{
+    text-align: center;
+}
+
+.thank-you-sub{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 25px;
+    width: 350px;
+}
+
+#selection{
+    background-color: #3e444b;
+    border-radius: 20px;
+    padding: 5px 15px;
+    width: fit-content;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 15px;
+    color: hsl(25, 97%, 53%);
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 460px ) {
+    .container{
+        padding: 0 10px;
+  
+    }
+    .sub-heading{
+        width: 80%
+    }
+
+    .thank-you-sub{ 
+    width: fit-content;
+    }
 }

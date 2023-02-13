@@ -16,7 +16,8 @@
 <body>
 
   <!-- Rating state start -->
-<div class="rating-card">
+  <div class="container">
+    <div class="rating-card">
   <div>
     <img src="/images/icon-star.svg" alt="star" class="star">
   </div>
@@ -25,31 +26,38 @@
  <p class="sub-heading">Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p> 
   <div class="buttons">
-    <button id="rating-btn" class="selected">1</button> 
-    <button id="rating-btn" class="selected">2</button>
-    <button id="rating-btn" class="selected">3</button>
-    <button id="rating-btn" class="selected">4</button>
-    <button id="rating-btn" class="selected">5</button>  
+    <button class="rating-btn selected">1</button> 
+    <button class="rating-btn selected">2</button>
+    <button class="rating-btn selected">3</button>
+    <button class="rating-btn selected">4</button>
+    <button class="rating-btn selected">5</button>  
   </div>
   
 <br>
- <button id="submit-btn">SUBMIT</button> 
+ <button type="button" id="submit-btn" class="submit-selected">SUBMIT</button> 
 
 </div>
+  </div>
+
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-<div class="thank-you-card hidden">
+  <div class="container">
+    <div class="thank-you-card hidden">
   <img src="/images/illustration-thank-you.svg" alt="phone and card thank you image" class="thank-you-img">
- <p class="selection">You selected <span id="rating"><!-- Add rating here --> </span>out of 5</p> 
+ <p id="selection">You selected <span id="rating-number"><!-- Add rating here --> </span> out of 5</p> 
 
   <h2>Thank you!</h2>
 
-  <p class="sub-heading">We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!</p> 
+  <p class="thank-you-sub">We appreciate you taking the time to give a rating. If you ever need more support, 
+  don't hesitate to get in touch!</p> 
 
 </div>
+
+
+  </div>
+
  
   <!-- Thank you state end -->
 
@@ -58,6 +66,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Ameley Kwei-Armah</a>.
   </div>
+  
 
   <script src="/script.js"></script>
 </body>
