@@ -1,154 +1,141 @@
-body{
-    background-color: hsl(216, 12%, 8%);
-    font-family: 'Overpass', sans-serif;
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
 }
 
-.star{
-    border: none;
-    border-radius: 50%;
-    font-size: 15px;
-    background: #3e444b;
-    padding: 12px;
+.star {
+  border: none;
+  border-radius: 50%;
+  font-size: 15px;
+  background: #3e444b;
+  padding: 12px;
 }
 
-h2{
-    color: white;
-    letter-spacing: 2px;
-    font-weight: 400;
+h2 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
-.container{
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
 
-.rating-card, .thank-you-card{
-    background-color: hsl(213, 19%, 18%);
-    border-radius: 20px;
+.rating-card,
+.thank-you-card {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  width: fit-content;
+  padding: 25px;
+}
+
+.sub-heading,
+.attribution {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  width: 350px;
+  line-height: 25px;
+}
+
+.show {
+  display: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.selected {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+.rating-btn {
+  border: none;
+  border-radius: 50%;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  background: #3e444b;
+  color: hsl(217, 12%, 63%);
+  margin-right: 15px;
+  padding: 15px;
+}
+
+.rating-btn:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+#submit-btn {
+  width: 100%;
+  border: none;
+  margin-top: 15px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 2px;
+}
+
+#submit-btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.submit-selected {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.attribution {
+  font-size: 10px;
+  text-align: center;
+  color: #3e444b;
+}
+
+.attribution a {
+  color: hsl(217, 12%, 63%);
+}
+
+.thank-you-card {
+  text-align: center;
+}
+
+.thank-you-sub {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  line-height: 25px;
+  width: 350px;
+}
+
+#selection {
+  background-color: #3e444b;
+  border-radius: 20px;
+  padding: 5px 15px;
+  width: fit-content;
+  font-size: 12px;
+  margin: auto;
+  margin-top: 15px;
+  color: hsl(25, 97%, 53%);
+  font-size: 12px;
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    padding: 0 10px;
+  }
+  .sub-heading {
+    width: 80%;
+  }
+
+  .thank-you-sub {
     width: fit-content;
-    padding: 25px;
-    
-}
-
-.sub-heading, .attribution{
-    color: hsl(217, 12%, 63%);
-    font-size: 15px;
-    width: 350px;
-    line-height: 25px;
-    
-}
-
-
-.show{
-    display: hidden;
-}
-
-.hidden{
-    display: none;
-}
-
-.buttons{
-    text-align: center;
-}
-
-
-
-
-
-.selected{
-    background-color: hsl(25, 97%, 53%);
-    color: white;
-  
-}
-.rating-btn{
-    border: none;
-    border-radius: 50%;
-    font-size: 15px;
-    font-family: 'Overpass', sans-serif;
-    background: #3e444b;
-    color: hsl(217, 12%, 63%);
-    margin-right: 15px;
-    padding: 15px;
-    
-}
-
-.rating-btn:hover{
-    background-color: hsl(217, 12%, 63%);
-    color: white;
-}
-
-#submit-btn{
-    width: 100%;
-    border: none;
-    margin-top: 15px;
-    background-color: hsl(25, 97%, 53%);
-    color: white;
-    padding: 12px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-family: 'Overpass', sans-serif;
-    letter-spacing: 2px;
-}
-
-
-
-#submit-btn:hover{
-    background-color: white;
-    color: hsl(25, 97%, 53%);
-}
-
-
-
-.submit-selected{
-    background-color: white;
-    color: hsl(25, 97%, 53%);
-}
-
-.attribution{
-    font-size: 10px;
-    text-align: center;
-    color: #3e444b;
-}
-
-.attribution a{
-    color: hsl(217, 12%, 63%);
-}
-
-.thank-you-card{
-    text-align: center;
-}
-
-.thank-you-sub{
-    color: hsl(217, 12%, 63%);
-    font-size: 15px;
-    line-height: 25px;
-    width: 350px;
-}
-
-#selection{
-    background-color: #3e444b;
-    border-radius: 20px;
-    padding: 5px 15px;
-    width: fit-content;
-    font-size: 12px;
-    margin: auto;
-    margin-top: 15px;
-    color: hsl(25, 97%, 53%);
-    font-size: 12px;
-}
-
-
-@media screen and (max-width: 460px ) {
-    .container{
-        padding: 0 10px;
-  
-    }
-    .sub-heading{
-        width: 80%
-    }
-
-    .thank-you-sub{ 
-    width: fit-content;
-    }
+  }
 }
