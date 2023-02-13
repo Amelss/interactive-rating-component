@@ -48,5 +48,5 @@ Users should be able to:
 ## Author
 
 - Website - [Ameley Kwei-Armah](https://ameley-kwei-armah.netlify.app/)
-- Frontend Mentor - [@Amelss(https://www.frontendmentor.io/profile/Amelss)
+- Frontend Mentor - [@Amelss](https://www.frontendmentor.io/profile/Amelss)
 - Twitter - [@genebi_bae](https://www.twitter.com/genibi_bae)
