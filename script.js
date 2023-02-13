@@ -9,7 +9,6 @@ let result = document.querySelectorAll(".rating-btn")
 
 for (let i = 0; i < ratings.length; i++){
     ratings[i].addEventListener('click', function (e) {
-        console.log('ratings clicked')
         result = e.target.innerHTML
     })
 }
@@ -31,8 +30,8 @@ submitBtn.addEventListener('click', function () {
     console.log('clicked');
     submitBtn.classList.toggle("submit-selected")
     ratingNumber.textContent = result
-    // ratingsCard.classList.add("hidden")
-    // thankYouCard.classList.remove("hidden")
+    ratingsCard.classList.add("hidden")
+    thankYouCard.classList.remove("hidden")
 
 })
 
