@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub)
-- Live Site URL: [Add live site URL here](https://ameley-interative-rating-app.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub)
+- Live Site URL: [Live Site](https://ameley-interative-rating-app.netlify.app/)
 
 
 ### Built with
@@ -47,6 +47,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://ameley-kwei-armah.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Amelss)
-- Twitter - [@yourusername](https://www.twitter.com/genibi_bae)
+- Website - [Ameley Kwei-Armah](https://ameley-kwei-armah.netlify.app/)
+- Frontend Mentor - [@Amelss(https://www.frontendmentor.io/profile/Amelss)
+- Twitter - [@genebi_bae](https://www.twitter.com/genibi_bae)
